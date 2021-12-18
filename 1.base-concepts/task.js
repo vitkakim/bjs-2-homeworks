@@ -5,16 +5,16 @@ function solveEquation(a, b, c) {
     arr.push(- b / (2 * a));
   }
   if (discriminant > 0){
-    arr.push(((- b + Math.sqrt(discriminant)) / (2 * a)).toFixed(3) );
-    arr.push(((-b - Math.sqrt(discriminant)) / (2 * a)).toFixed(3) );
+     arr.push((- b + Math.sqrt(discriminant)) / (2 * a) );
+     arr.push((-b - Math.sqrt(discriminant)) / (2 * a) );
   }
   return arr;
 }
 
-function calculateTotalMortgage(percent, contribution, amount, date) {
-  let totalAmount;
+// function calculateTotalMortgage(percent, contribution, amount, date) {
+//   let totalAmount;
 
-  // код для задачи №2 писать здесь
+//   // код для задачи №2 писать здесь
 
-  return totalAmount;
-}
+//   return totalAmount;
+// }
